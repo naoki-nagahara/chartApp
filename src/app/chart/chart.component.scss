@@ -1,0 +1,14 @@
+.chartList {
+  flex-basis: 15%;
+}
+
+.selectList {
+  flex-basis: 70%;
+}
+.chartContainer {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}

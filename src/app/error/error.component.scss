@@ -1,0 +1,23 @@
+.error {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  //   background: rgb(186, 186, 133);
+  h1 {
+    margin: 0;
+  }
+  a {
+    color: blue;
+  }
+  .errorImage {
+    img {
+      width: 100%;
+      height: 500px;
+    }
+  }
+}

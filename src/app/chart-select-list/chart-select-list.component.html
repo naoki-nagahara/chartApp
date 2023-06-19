@@ -1,0 +1,10 @@
+<div class="itemContainer">
+  <div>
+    <h1>クリプトを選択</h1>
+  </div>
+  <div *ngFor="let item of cryptValue">
+    <p (click)="changeCrypt(item)">
+      {{ item }}
+    </p>
+  </div>
+</div>

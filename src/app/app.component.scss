@@ -1,0 +1,15 @@
+.chartContainer {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // padding: 50px;
+  gap: 50px;
+}
+.chartList {
+  flex-basis: 15%;
+}
+
+.selectList {
+  flex-basis: 70%;
+}
